@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCLab Project</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+
+  <script src="libraries/p5.min.js"></script>
+  <!-- Uncomment the line below if you use audio. -->
+  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+</head>
+
+<body>
+
+  <h1>The Four Mirrors</h1>
+
+  <!-- the following div will contain the p5 canvas. -->
+  <div id="canvasContainer"></div>
+
+  <p class= "subtitle" id="description">
+    Project Description </p>
+
+  <p class="info" id="leftinfo">
+    This project allows you to sketch, not on a normal canvas, but rather on one that is composed of 4 mirros. Anything 
+    drawn on the canvas will be reflected into the 3 other quadrants of the canvas as well, allowing for perfectly symetric and geometic
+    drawings. </p>
+
+
+  <p class= "subtitle" id="instructions">
+    Instructions</p>
+  
+  <p class="info" id="rightinfo">
+    1) Hold down your mouse and drag over the canvas to paint. <br>
+    2) To change pen color, press SHIFT. <br>
+    3) To change pen size, press the left arrow key. <br>
+    4) To restart, refresh the page.</p>
+
+  <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+  <script src="sketch.js"></script>
+</body>
+
+</html>

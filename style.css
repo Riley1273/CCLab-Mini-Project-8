@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url("zigzag.jpg");
+}
+
+
+canvas {
+  display: block;
+}
+
+#canvasContainer{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -300px;
+  margin-right:-300px;
+  margin-top: -300px;
+}
+#description{
+  position: fixed; 
+  top: 20%;
+  left: 10%;
+  transform: translate(-20%, -25%);
+}
+
+#instructions{
+  position: fixed; 
+  top: 20%;
+  left: 80%;
+  transform: translate(-20%, -25%);
+}
+#leftinfo{
+  position: fixed; 
+  top: 40%;
+  left: 10%;
+  transform: translate(-20%, -25%);
+} 
+#rightinfo{
+  position: fixed; 
+  top: 40%;
+  left: 80%;
+  transform: translate(-20%, -25%);
+}
+
+
+h1{
+  font-size: 48px;
+  padding: 20px;
+  position: absolute;
+  color: white;
+  font-family: 'Rubik Marker Hatch';
+  position: fixed; 
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+ 
+.subtitle{  
+  font-size: 24px;
+  padding: 15px;
+  position: absolute;
+  color: white;
+  font-family: 'Rubik Marker Hatch';
+  background-color: black;
+}
+
+.info{
+  font-size: 20px;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  position: absolute;
+  color: white;
+  background-color: black;
+  line-height: 1.5;
+}
